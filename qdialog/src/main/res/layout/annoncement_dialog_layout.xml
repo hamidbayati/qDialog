@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp">
+
+    <ir.qteam.qdialog.Customs.BoldTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_tit"
+        android:layout_marginTop="20dp"
+        app:isBold="true"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:text="عنوان"
+        android:textSize="@dimen/font_large"
+        />
+    <ir.qteam.qdialog.Customs.BoldTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_desc"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:text="پیام"
+        android:textSize="@dimen/font_medium"
+        android:layout_below="@+id/dialog_tit"
+        />
+
+
+    <RelativeLayout
+        android:gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/dialog_desc"
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <ir.qteam.qdialog.Customs.BoldTextView
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_large"
+            android:id="@+id/btn_accept_dialog"
+            android:text="@string/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+    <string name="please_wait">لطفا منتظر بمانید...</string>
+    <string name="accept">تایید</string>
+    <string name="never_mind">بیخیال</string>
+    <string name="ok">باشه</string>
+</resources>
